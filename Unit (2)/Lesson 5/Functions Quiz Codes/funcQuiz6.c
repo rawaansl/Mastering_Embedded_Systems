@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 int check( int x);
 int main(){
     int n;
@@ -8,6 +9,7 @@ int main(){
 }
 
 int check(int x){
-    if(x % 3 == 0) return 0;
+    float i = log(x) / log (3);
+    if ( i == trunc(i) ) return 0;
     return 1;
 }
