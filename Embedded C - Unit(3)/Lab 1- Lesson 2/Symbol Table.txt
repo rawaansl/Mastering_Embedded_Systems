@@ -1,0 +1,18 @@
+learn-in-depth.elf:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00010000 l    d  .startup       00000000 .startup
+00010010 l    d  .text  00000000 .text
+00010078 l    d  .data  00000000 .data
+00000000 l    d  .ARM.attributes        00000000 .ARM.attributes
+00000000 l    d  .comment       00000000 .comment
+00000000 l    df *ABS*  00000000 startup.o
+00010008 l       .startup       00000000 stop
+00000000 l    df *ABS*  00000000 uart.c
+00000000 l    df *ABS*  00000000 app.c
+00000000 l    df *ABS*  00000000
+00010000 g       .startup       00000000 reset
+00010078 g     O .data  00000032 string
+00010010 g     F .text  00000050 uart_tx
+000110ac g       .data  00000000 stack_top
+00010060 g     F .text  00000018 main
