@@ -1,0 +1,5 @@
+00000003 C bss_variables
+00000000 R c_variables
+00000004 D g_variables
+00000000 T main
+00000000 D R_ODR
