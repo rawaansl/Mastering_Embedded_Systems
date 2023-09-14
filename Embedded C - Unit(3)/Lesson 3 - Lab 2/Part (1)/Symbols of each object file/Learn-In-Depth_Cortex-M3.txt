@@ -1,0 +1,6 @@
+0800010c t _reset
+08000114 T c_variables
+0800011c D g_variables
+08000064 T main
+08000118 D R_ODR
+08000112 t vector_handler
