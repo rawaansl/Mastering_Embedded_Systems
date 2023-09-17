@@ -1,0 +1,15 @@
+20000400 B _E_bss
+20000000 T _E_data
+00000190 T _E_text
+20000000 B _S_bss
+20000000 T _S_data
+00000184 W BF_handler
+20000000 b bss_stack
+00000184 T Default_handler
+00000184 W H_Fault_handler
+00000000 T interrupt_handlers
+0000001c T main
+00000184 W MM_handler
+00000184 W NMI_handler
+000000d0 T Reset_handler
+00000184 W UF_handler
