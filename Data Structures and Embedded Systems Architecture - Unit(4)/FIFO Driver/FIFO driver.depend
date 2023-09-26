@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1695637495 source:c:\users\hp\desktop\unit 4- lesson (1) data structures\fifo driver\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"FIFO.h"
+
+1695643040 c:\users\hp\desktop\unit 4- lesson (1) data structures\fifo driver\fifo.h
+	<stdint.h>
+
+1695643027 source:c:\users\hp\desktop\unit 4- lesson (1) data structures\fifo driver\fifo.c
+	"FIFO.h"
+	<stdio.h>
+
